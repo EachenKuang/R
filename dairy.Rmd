@@ -1,0 +1,35 @@
+---
+title: "Diary"
+author: "Eachen"
+date: "2016年10月10日"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#前言
+```{r}
+anscombe
+summary(anscombe)
+```
+
+#第一章
+今天天气真好，我也不知道好不好。
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+plot(anscombe$x1,anscombe$y1,type = "b")
+apply(anscombe,2,mean)
+apply(anscombe,2,var)
+```
+
+
+#分析anscombe数据
+#前言
+##描述统计分析
+##回归方程(y1~x1)
+##画图
+##结论
+##
