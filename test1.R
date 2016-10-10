@@ -7,3 +7,13 @@ plot(anscombe$x1,anscombe$y1)
 
 #lsadjfsldafjsdlafsdfsdafsdafsdfsd
 dasdd
+
+help(read)
+??read.table
+
+getwd()
+
+#hahahahhahahah
+#hahahahahahhahah
+#hahahahahahahahah
+#
