@@ -9,13 +9,13 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-#前言
+# 前言
 ```{r}
 anscombe
 summary(anscombe)
 ```
 
-#第一章
+# 第一章
 今天天气真好，我也不知道好不好。
 
 ```{r pressure, echo=FALSE}
@@ -26,10 +26,10 @@ apply(anscombe,2,var)
 ```
 
 
-#分析anscombe数据
-#前言
-##描述统计分析
-##回归方程(y1~x1)
-##画图
-##结论
+# 分析anscombe数据
+# 前言
+## 描述统计分析
+## 回归方程(y1~x1)
+## 画图
+## 结论
 ##
